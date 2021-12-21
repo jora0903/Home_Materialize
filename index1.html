@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Materialize</title>
+
+</head>
+<body>
+    <nav class="blue darken-2 lighten-1" role="navigation">
+        <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">SN</a>
+            <ul class="right hide-on-med-and-down">
+                <li>
+                    <a href="#" class="valign-wrapper">
+                        <img src="images/av_64.png" alt="avatar">
+                        Kate Peterson
+                    </a>
+                </li>
+            </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="#">Kate Peterson</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <script>
+                document.addEventListener('DOMContentLoaded',
+                    function() {
+                        const elems = document.querySelectorAll('.sidenav');
+                        const instances = M.Sidenav.init(elems);
+                    });
+            </script>
+        </div>
+    </nav>
+
+    <div class="container row">
+        <div class="col">
+            <ul class="nav">
+                <li><a href="#"><i class="small material-icons">assignment_ind</i>My profile</a></li>
+                <li><a href="#"><i class="small material-icons">chrome_reader_mode</i>News</a></li>
+                <li><a href="#"><i class="small material-icons">mail</i>Messages</a></li>
+                <li><a href="#"><i class="small material-icons">face</i>Friends</a></li>
+                <li><a href="#"><i class="small material-icons">event_available</i>Events</a></li>
+                <li><a href="#"><i class="small material-icons">image</i>Media</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
