@@ -4,11 +4,10 @@
     <meta charset="UTF-8">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Compiled and minified JavaScript -->
+    <script src="materialize/1.0.0/js/materialize.min.js"></script>
     <title>Materialize</title>
 
 </head>
@@ -40,15 +39,83 @@
 
     <div class="container row">
         <div class="col">
-            <ul class="nav">
-                <li><a href="#"><i class="small material-icons">assignment_ind</i>My profile</a></li>
-                <li><a href="#"><i class="small material-icons">chrome_reader_mode</i>News</a></li>
-                <li><a href="#"><i class="small material-icons">mail</i>Messages</a></li>
-                <li><a href="#"><i class="small material-icons">face</i>Friends</a></li>
-                <li><a href="#"><i class="small material-icons">event_available</i>Events</a></li>
-                <li><a href="#"><i class="small material-icons">image</i>Media</a></li>
+            <ul class="nav left-menu">
+                <li class="row"><a class="valign-wrapper" href="#"><i class="col small material-icons">assignment_ind</i>My profile</a></li>
+                <li class="row"><a class="valign-wrapper" href="#"><i class="col small material-icons">chrome_reader_mode</i>News</a></li>
+                <li class="row"><a class="valign-wrapper" href="#"><i class="col small material-icons">mail</i>Messages <span class="blue new badge" data-badge-caption="">4</span> </a></li>
+                <li class="row"><a class="valign-wrapper" href="#"><i class="col small material-icons">face</i>Friends</a></li>
+                <li class="row"><a class="valign-wrapper" href="#"><i class="col small material-icons">event_available</i>Events</a></li>
+                <li class="row"><a class="valign-wrapper" href="#"><i class="col small material-icons">image</i>Media</a></li>
             </ul>
         </div>
+
+        <div class="col">
+            <div class="card">
+                <div class="card-image">
+                    <img src="images/av_256.png">
+                </div>
+
+                <div class="card-action center-align">
+                    <a class="btn waves-effect waves-light edit-btn">EDIT</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <p>Friends (245)</p>
+                </div>
+
+                <div class="card-image">
+                    <img src="images">
+                    <p>Hassan Tomlin</p>
+                </div>
+
+                <div class="card-image">
+                    <img src="images">
+                    <p>Hassan Tomlin</p>
+                </div>
+
+                <div class="card-image">
+                    <img src="images">
+                    <p>Hassan Tomlin</p>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <div class="">
+                    <p>Kate Peterson</p>
+                </div>
+
+                <div class="card-action center-align">
+                    <a class="btn waves-effect waves-light edit-btn">EDIT</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                </div>
+
+                <div class="card-action center-align">
+                    <a class="btn waves-effect waves-light edit-btn">EDIT</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image">
+                </div>
+
+                <div class="card-action center-align">
+                    <a class="btn waves-effect waves-light edit-btn">EDIT</a>
+                </div>
+            </div>
+        </div>
     </div>
+
+
+
+
+
 </body>
 </html>
